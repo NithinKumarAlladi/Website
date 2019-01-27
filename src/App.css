@@ -30,17 +30,23 @@
     transform: rotate(360deg);
   }
 }
-.backDiv{
-  height : 100vh;
-  background-color : rgb(255, 166, 49);
+.introDiv{
+  height : 90vh;
+  background: url(../src/imgs/bg.jpg);
 }
 .headPara{
   margin : 0px;
   padding-top : 10px;
-  font-family:Verdana;
   color: white;
 }
-
-/*{
-  Caveat , Bigelow Rules, Boogaloo
-}*/
+.img{
+  position: absolute;
+  height: 400px;
+  border-color: white;
+  border-width: 50px;
+}
+.currDiv{
+  width: 100vw;
+  background: #e0e0e0;
+  height: 200px;
+}
