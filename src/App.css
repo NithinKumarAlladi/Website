@@ -30,23 +30,34 @@
     transform: rotate(360deg);
   }
 }
-.introDiv{
-  height : 90vh;
+.introDiv {
+  height: 90vh;
   background: url(../src/imgs/bg.jpg);
 }
-.headPara{
-  margin : 0px;
-  padding-top : 10px;
+.headPara {
+  margin: 0px;
+  padding-top: 10px;
   color: white;
 }
-.img{
+.img {
   position: absolute;
   height: 400px;
   border-color: white;
   border-width: 50px;
 }
-.currDiv{
+.currDiv {
   width: 100vw;
   background: #e0e0e0;
-  height: 200px;
+  height: 250px;
+}
+.tbIcon {
+  position: absolute;
+  height: 75px;
+  padding-left: 700px;
+}
+.sdIcon {
+  position: absolute;
+  height: 50px;
+  padding-left: 550px;
+  padding-top: 12px;
 }
