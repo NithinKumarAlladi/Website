@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Project from "./Project.js";
 import me from "./imgs/me.jpg";
 import tb from "./imgs/tb.jpg";
 import sd from "./imgs/sdp1.jpg";
@@ -78,22 +79,7 @@ export default class Home extends Component {
             September,2018 - Present
           </p>
         </div>
-        <div>
-          <p>
-            <br />
-            This guy knows how to develop web applications as well as mobile
-            applications as he is good at the technologies like JavaScript,
-            Angular, React, React Native and Node.js.
-            <br />
-            But I advise you to look at his work.
-            <br />
-            He's got 3 months of experience in mobile application development at
-            iCriya digital technologies and developed a module of their product
-            in Ionic.
-            <br />
-            He got certified as "Salesforce Platform Developer I" by Salesforce.
-          </p>
-        </div>
+        <Project />
       </div>
     );
   }

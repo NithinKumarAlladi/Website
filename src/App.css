@@ -53,11 +53,11 @@
 .tbIcon {
   position: absolute;
   height: 75px;
-  padding-left: 700px;
+  padding-left: 35vw;
 }
 .sdIcon {
   position: absolute;
   height: 50px;
-  padding-left: 550px;
+  padding-left: 28vw;
   padding-top: 12px;
 }
