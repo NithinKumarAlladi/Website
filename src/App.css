@@ -41,19 +41,20 @@
 }
 .img {
   position: absolute;
-  height: 400px;
+  height: 20vw;
   border-color: white;
   border-width: 50px;
 }
 .currDiv {
   width: 100vw;
   background: #e0e0e0;
-  height: 250px;
+  height: 28%;
 }
 .tbIcon {
   position: absolute;
   height: 75px;
-  padding-left: 35vw;
+  padding-left: 25vw;
+  margin-left: 10vw;
 }
 .sdIcon {
   position: absolute;
