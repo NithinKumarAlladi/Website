@@ -3,6 +3,7 @@ import Project from "./Project.js";
 import me from "./imgs/me.jpg";
 import tb from "./imgs/tb.jpg";
 import sd from "./imgs/sdp1.jpg";
+import internship from "./imgs/projects/internship.png";
 
 export default class Home extends Component {
   render() {
@@ -78,6 +79,21 @@ export default class Home extends Component {
           >
             September,2018 - Present
           </p>
+        </div>
+        <div>
+          <p
+            style={{
+              margin: 0,
+              paddingTop: 30,
+              fontSize: 30,
+              fontFamily: "amaranth-extended-bold ,sans-serif",
+              fontWeight: 100,
+              color: "gray"
+            }}
+          >
+            Internship
+          </p>
+          <img style={{ height: "33vh" }} src={internship} />
         </div>
         <Project />
       </div>
