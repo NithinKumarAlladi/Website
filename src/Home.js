@@ -10,15 +10,7 @@ export default class Home extends Component {
     return (
       <div>
         <div className="introDiv">
-          <div
-            style={{ marginTop: 100, marginLeft: "70%", position: "absolute" }}
-          >
-            <img
-              style={{ borderWidth: 50, borderColor: "white" }}
-              className="img"
-              src={me}
-            />
-          </div>
+          <img className="img" src={me} />
           <p
             className="headPara"
             style={{
