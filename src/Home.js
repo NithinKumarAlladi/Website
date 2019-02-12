@@ -47,8 +47,18 @@ export default class Home extends Component {
             }}
           >
             Current work
-            <img className="sdIcon" src={sd} />
-            <img className="tbIcon" src={tb} />
+            <a
+              href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI"
+              target="_blank"
+            >
+              <img className="sdIcon" src={sd} />
+            </a>
+            <a
+              href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM"
+              target="_blank"
+            >
+              <img className="tbIcon" src={tb} />
+            </a>
           </p>
           <p
             style={{
