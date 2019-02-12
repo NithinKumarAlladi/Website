@@ -22,22 +22,30 @@ export default class Project extends Component {
           Projects I worked on
         </p>
         <div>
-          <img
-            style={{ height: "33vh", minHeight: "200px", float: "left" }}
-            src={nb}
-          />
-          <img
-            style={{ height: "33vh", minHeight: "200px", float: "right" }}
-            src={tr}
-          />
-          <img
-            style={{ height: "33vh", minHeight: "200px", float: "left" }}
-            src={c4}
-          />
-          <img
-            style={{ height: "33vh", minHeight: "200px", float: "right" }}
-            src={ttt}
-          />
+          <section>
+            <img
+              style={{ height: "33vh", minHeight: "200px", float: "left" }}
+              src={nb}
+            />
+          </section>
+          <section>
+            <img
+              style={{ height: "33vh", minHeight: "200px", float: "right" }}
+              src={tr}
+            />
+          </section>
+          <section>
+            <img
+              style={{ height: "33vh", minHeight: "200px", float: "left" }}
+              src={c4}
+            />
+          </section>
+          <section>
+            <img
+              style={{ height: "33vh", minHeight: "200px", float: "right" }}
+              src={ttt}
+            />
+          </section>
         </div>
       </div>
     );
