@@ -10,53 +10,47 @@ export default class Home extends Component {
     return (
       <div>
         <div className="introDiv">
-          <img className="img" src={me} />
-          <p
-            className="headPara"
-            style={{
-              fontSize: 20,
-              fontStyle: "italic",
-              fontFamily: "permanent-marker, sans-serif",
-              paddingTop: 250,
-              paddingRight: 450
-            }}
+          {/* <img className="img" src={me} />
+          <p className="headPara" style={{
+            fontSize: 20,
+            fontStyle: "italic",
+            fontFamily: "permanent-marker, sans-serif",
+            paddingTop: 250,
+            paddingRight: 450
+          }}
           >
             Hey! I'm
           </p>
-          <p
-            className="headPara"
-            style={{
-              fontSize: 50,
-              fontFamily: "amaranth-extended-bold, sans-serif",
-              fontWeight: 100,
-              paddingRight: 450
-            }}
+          <p className="headPara" style={{
+            fontSize: 50,
+            fontFamily: "amaranth-extended-bold, sans-serif",
+            fontWeight: 100,
+            paddingRight: 450
+          }}
           >
             Nithin kumar Alladi
-          </p>
-          {/* <p>Well, I'll take you through this weird experience knowing me.</p> */}
+          </p> */}
+          <div className="eightCol" >
+            <p>Hey! I'm</p>
+            <p>Nithin Kumar Alladi</p>
+          </div>
+          <div className="fourCol" ><img style={{height:"90vh",}} src={me} /></div>
         </div>
         <div className="currDiv">
-          <p
-            style={{
-              margin: 0,
-              paddingTop: 30,
-              fontSize: 30,
-              fontFamily: "amaranth-extended-bold ,sans-serif",
-              fontWeight: 100
-            }}
+          <p style={{
+            margin: 0,
+            paddingTop: 30,
+            fontSize: 30,
+            fontFamily: "amaranth-extended-bold ,sans-serif",
+            fontWeight: 100
+          }}
           >
             Current work
-            <a
-              href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI"
-              target="_blank"
-            >
+            <a href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI"
+              target="_blank">
               <img className="sdIcon" src={sd} />
             </a>
-            <a
-              href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM"
-              target="_blank"
-            >
+            <a href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM" target="_blank" >
               <img className="tbIcon" src={tb} />
             </a>
           </p>
