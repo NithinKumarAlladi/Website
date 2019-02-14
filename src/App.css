@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,7 +27,7 @@
     transform: rotate(360deg);
   }
 }
-.introDiv {
+/* .introDiv {
   height: 90vh;
   background: url(../src/imgs/bg.jpg);
 }
@@ -64,4 +61,44 @@
   height: 50px;
   padding-left: 28vw;
   padding-top: 12px;
+} */
+
+
+.intro {
+  height: 90vh;
+  background: black;
+}
+.myImg {
+  display: none;
+  height: 100%;
+  float:right;
+}
+.imgDiv{
+  float: right;
+  height: 100%;
+  width:40%;
+  background : url(./imgs/me.jpg);
+  box-shadow: 250px 0px 2000px rgba(0,0,0,1) inset;
+}
+
+@media screen and (max-width:1200px){
+  .intro{
+    height: 90vh;
+    background: url(../src/imgs/bg.jpg) no-repeat ;
+    text-align: center;
+  }
+  .imgDiv{
+    float: center;
+    height: 100%;
+    width: 100%;
+    background: url(../src/imgs/bg.jpg) no-repeat ;
+    box-shadow: none;
+  }
+  .myImg{
+    display: inline;
+    height:30%;
+    border-radius: 50%;
+    margin-top:15vh;
+    float: none;
+  }
 }
