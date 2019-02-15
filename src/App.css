@@ -1,3 +1,6 @@
+.App{
+  font-size: 16px;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -80,6 +83,24 @@
   background : url(./imgs/me.jpg);
   box-shadow: 250px 0px 2000px rgba(0,0,0,1) inset;
 }
+.name{
+  color: white;
+  text-align: right;
+  font-size: 4em;
+  width: 20%;
+  padding-top:30vh;
+  padding-left:5%;
+}
+p{
+  margin:0px;
+  padding:0px;
+}
+.vertiLine{
+  width:3px;
+  height:16em;
+  background: rgb(218, 218, 218);
+  position: absolute;
+}
 
 @media screen and (max-width:1200px){
   .intro{
@@ -89,16 +110,26 @@
   }
   .imgDiv{
     float: center;
-    height: 100%;
+    height: 30%;
     width: 100%;
     background: url(../src/imgs/bg.jpg) no-repeat ;
     box-shadow: none;
   }
   .myImg{
     display: inline;
-    height:30%;
+    height:100%;
     border-radius: 50%;
     margin-top:15vh;
-    float: none;
+    float:none;
+  }
+  .name{
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    padding-top: 65vh;
+    padding-left: 0%;
+  }
+  .vertiLine{
+    display: none;
   }
 }

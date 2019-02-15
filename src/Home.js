@@ -15,6 +15,8 @@ export default class Home extends Component {
           <div className="imgDiv" >
             <img className="myImg" src={shortMe} />
           </div>
+          <p className="name" >NITHIN KUMAR ALLADI</p>
+          <div className="vertiLine" ></div>
         </div>
       </div>
       // <div>
