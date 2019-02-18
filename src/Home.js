@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Project from "./Project.js";
-import me from "./imgs/me.jpg";
-import alsoMe from "./imgs/alsoMe.jpg";
 import tb from "./imgs/tb.jpg";
 import sd from "./imgs/sdp1.jpg";
 import shortMe from "./imgs/shortMe.jpg";
 import internship from "./imgs/projects/internship.png";
+import aboutImg from "./imgs/about.png";
 
 export default class Home extends Component {
   render() {
@@ -17,6 +16,16 @@ export default class Home extends Component {
           </div>
           <p className="name" >NITHIN KUMAR ALLADI</p>
           <div className="vertiLine" ></div>
+          <p className="prof" >SOFTWARE DEVELOPER</p>
+          <p className="address" >I'm currently based in Hyderabad, India.</p>
+        </div>
+        <div className="aboutDiv" >
+          <img className="aboutImg" src={aboutImg} />
+          <p className="aboutP" > I'm a self taught software developer able to produce robust and readable code.<br /><br /> As a software or web developer,
+            I enjoy the power it gives me to do anything with code. I also enjoy build something from scratch.<br /> <br /> <br />
+            Out of this enjoyment in building anything you want, I have learned and developed in few languages such as
+            HTML, CSS, JavaScript,ReactJs and Angular which are web developing languages,
+            frameworks or libraries and React Native and Ionic which are mobile application developing frameworks.  </p>
         </div>
       </div>
       // <div>

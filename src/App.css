@@ -84,12 +84,12 @@
   box-shadow: 250px 0px 2000px rgba(0,0,0,1) inset;
 }
 .name{
-  color: white;
+  color: rgb(207, 207, 207);
   text-align: right;
   font-size: 4em;
   width: 20%;
   padding-top:30vh;
-  padding-left:5%;
+  padding-left:9%;
 }
 p{
   margin:0px;
@@ -100,12 +100,45 @@ p{
   height:16em;
   background: rgb(218, 218, 218);
   position: absolute;
+  top:30vh;
+  left:30%;
+  
+}
+.prof{
+  color: rgb(207, 207, 207);
+  text-align: left;
+  font-size: 4em;
+  width: 20%;
+  padding-left:31%; 
+  top:30vh;
+  position: absolute;
+
+}
+.address{
+  font-size: 2em;
+  color: rgb(207, 207, 207);
+  text-align: center;
+  padding-top:20vh;
+}
+.aboutDiv{
+  text-align: center;
+  background: rgb(230, 230, 230);
+}
+.aboutImg{
+  width: 10vw;
+  min-width: 120px;
+}
+.aboutP{
+  width:90vw;
+  padding-left: 5vw;
+  padding-bottom: 5vh;
+  font-size: 1.1em;
 }
 
 @media screen and (max-width:1200px){
   .intro{
     height: 90vh;
-    background: url(../src/imgs/bg.jpg) no-repeat ;
+    background: url(../src/imgs/bg.jpg) no-repeat;
     text-align: center;
   }
   .imgDiv{
@@ -126,10 +159,24 @@ p{
     font-size: 2em;
     text-align: center;
     width: 100%;
-    padding-top: 65vh;
+    padding-top: 60vh;
     padding-left: 0%;
   }
   .vertiLine{
     display: none;
   }
+  .prof{
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    padding-left: 0%;
+    top:68vh;
+    position: absolute;
+  }
+  .address{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:10vh;
+  }
+  
 }
