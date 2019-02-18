@@ -5,6 +5,7 @@ import sd from "./imgs/sdp1.jpg";
 import shortMe from "./imgs/shortMe.jpg";
 import internship from "./imgs/projects/internship.png";
 import aboutImg from "./imgs/about.png";
+import workImg from "./imgs/workDoodle.jpg";
 
 export default class Home extends Component {
   render() {
@@ -27,35 +28,19 @@ export default class Home extends Component {
             HTML, CSS, JavaScript,ReactJs and Angular which are web developing languages,
             frameworks or libraries and React Native and Ionic which are mobile application developing frameworks.  </p>
         </div>
+        <div className="currDiv" >
+          <p className="currP" >
+            <span style={{ fontSize: "1.5em", }} >Currently Working </span>
+            as Salesforce developer at NTT DATA Global Delivery Services.
+            <br />  Designated as Software Developer Senior Associate. Since September,2018.</p>
+          <a title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" >
+            <img className="sdImg" src={sd} />
+          </a>
+          <a title="Click to navigate to my trailhead account" href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM" target="_blank" >
+            <img className="tbImg" src={tb} />
+          </a>
+        </div>
       </div>
-      // <div>
-      //   <div className="introDiv">
-      //     <img className="img" src={me} />
-      //     <p
-      //       className="headPara"
-      //       style={{
-      //         fontSize: 20,
-      //         fontStyle: "italic",
-      //         fontFamily: "permanent-marker, sans-serif",
-      //         paddingTop: 250,
-      //         paddingRight: 450
-      //       }}
-      //     >
-      //       Hey! I'm
-      //     </p>
-      //     <p
-      //       className="headPara"
-      //       style={{
-      //         fontSize: 50,
-      //         fontFamily: "amaranth-extended-bold, sans-serif",
-      //         fontWeight: 100,
-      //         paddingRight: 450
-      //       }}
-      //     >
-      //       Nithin kumar Alladi
-      //     </p>
-      //     {/* <p>Well, I'll take you through this weird experience knowing me.</p> */}
-      //   </div>
       //   <div className="currDiv">
       //     <p
       //       style={{
