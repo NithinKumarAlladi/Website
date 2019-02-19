@@ -5,7 +5,6 @@ import sd from "./imgs/sdp1.jpg";
 import shortMe from "./imgs/shortMe.jpg";
 import internship from "./imgs/projects/internship.png";
 import aboutImg from "./imgs/about.png";
-import workImg from "./imgs/workDoodle.jpg";
 
 export default class Home extends Component {
   render() {
@@ -21,17 +20,16 @@ export default class Home extends Component {
           <p className="address" >I'm currently based in Hyderabad, India.</p>
         </div>
         <div className="aboutDiv" >
-          <img className="aboutImg" src={aboutImg} />
           <p className="aboutP" > I'm a self taught software developer able to produce robust and readable code.<br /><br /> As a software or web developer,
             I enjoy the power it gives me to do anything with code. I also enjoy build something from scratch.<br /> <br /> <br />
-            Out of this enjoyment in building anything you want, I have learned and developed in few languages such as
+            Out of this enjoyment, in building anything you want, I have learned and developed in few languages such as
             HTML, CSS, JavaScript,ReactJs and Angular which are web developing languages,
             frameworks or libraries and React Native and Ionic which are mobile application developing frameworks.  </p>
         </div>
         <div className="currDiv" >
           <p className="currP" >
             <span style={{ fontSize: "1.5em", }} >Currently Working </span>
-            as Salesforce developer at NTT DATA Global Delivery Services.
+            as Salesforce developer at NTT DATA Global Delivery Services, Hyderabad, India.
             <br />  Designated as Software Developer Senior Associate. Since September,2018.</p>
           <a title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" >
             <img className="sdImg" src={sd} />
@@ -41,52 +39,7 @@ export default class Home extends Component {
           </a>
         </div>
       </div>
-      //   <div className="currDiv">
-      //     <p
-      //       style={{
-      //         margin: 0,
-      //         paddingTop: 30,
-      //         fontSize: 30,
-      //         fontFamily: "amaranth-extended-bold ,sans-serif",
-      //         fontWeight: 100
-      //       }}
-      //     >
-      //       Current work
-      //       <a
-      //         href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI"
-      //         target="_blank"
-      //       >
-      //         <img className="sdIcon" src={sd} />
-      //       </a>
-      //       <a
-      //         href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM"
-      //         target="_blank"
-      //       >
-      //         <img className="tbIcon" src={tb} />
-      //       </a>
-      //     </p>
-      //     <p
-      //       style={{
-      //         paddingTop: 20,
-      //         fontFamily: "amaranth-extended-bold ,sans-serif",
-      //         fontWeight: 100,
-      //         fontSize: 20
-      //       }}
-      //     >
-      //       Salesforce Developer at NTT DATA Global Delivery Services designated
-      //       as Software Developer Senior Associate.
-      //     </p>
-      //     <p
-      //       style={{
-      //         paddingTop: 20,
-      //         fontFamily: "amaranth-extended-bold ,sans-serif",
-      //         fontWeight: 100,
-      //         fontSize: 20
-      //       }}
-      //     >
-      //       September,2018 - Present
-      //     </p>
-      //   </div>
+
       //   <div>
       //     <p
       //       style={{

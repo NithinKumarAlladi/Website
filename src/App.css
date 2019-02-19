@@ -30,45 +30,9 @@
     transform: rotate(360deg);
   }
 }
-/* .introDiv {
-  height: 90vh;
-  background: url(../src/imgs/bg.jpg);
-}
-.headPara {
-  margin: 0px;
-  padding-top: 10px;
-  color: white;
-}
-.img {
-  position: absolute;
-  height: 20vw;
-  border-width: 50px;
-  top: 45%;
-  left: 75%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-.currDiv {
-  width: 100vw;
-  background: #e0e0e0;
-  height: 28%;
-}
-.tbIcon {
-  position: absolute;
-  height: 75px;
-  padding-left: 25vw;
-  margin-left: 10vw;
-}
-.sdIcon {
-  position: absolute;
-  height: 50px;
-  padding-left: 28vw;
-  padding-top: 12px;
-} */
-
 
 .intro {
-  height: 90vh;
+  height: 100vh;
   background: black;
   min-height: 825px;
 }
@@ -82,7 +46,8 @@
   height: 100%;
   width:40%;
   background : url(./imgs/me.jpg);
-  box-shadow: 250px 0px 2000px rgba(0,0,0,1) inset;
+  background-size:cover;
+  box-shadow: 250px -100px 2000px rgba(0,0,0,1) inset;
 }
 .name{
   color: rgb(207, 207, 207);
@@ -122,21 +87,21 @@ p{
   padding-top:20vh;
 }
 .aboutDiv{
+  height:90vh;
   text-align: center;
-  background: rgb(230, 230, 230);
+  background:black;
 }
 .aboutImg{
   width: 10vw;
   min-width: 120px;
 }
 .aboutP{
-  width:90vw;
-  padding-left: 5vw;
-  padding-bottom: 5vh;
+  color: rgb(207, 207, 207);
+  width:60vw;
+  padding-top:30vh;
+  padding-left: 20vw;
+  padding-bottom: 10vh;
   font-size: 1.1em;
-}
-.currDiv{
-
 }
 .currP{
   padding-top:5vh;
@@ -151,17 +116,19 @@ p{
   padding-left:10vw;
   padding-top:5vh;
   position: absolute;
+  padding-bottom:5vh;
 }
 .tbImg{
   width:8vw;
   padding-left:80vw;
   padding-top:5vh;
+  padding-bottom:5vh;
 }
 
 @media screen and (max-width:1200px){
   .intro{
     height: 90vh;
-    background: url(../src/imgs/bg.jpg) no-repeat;
+    background: black;
     text-align: center;
     min-height: 90vh;
   }
@@ -169,7 +136,7 @@ p{
     float: center;
     height: 30%;
     width: 100%;
-    background: url(../src/imgs/bg.jpg) no-repeat ;
+    background: black ;
     box-shadow: none;
   }
   .myImg{
@@ -202,12 +169,21 @@ p{
     text-align: center;
     padding-top:10vh;
   }
+  .aboutDiv{
+    height:inherit;
+  }
+  .aboutP{
+    width:90vw;
+    padding-left: 5vw;
+    padding-top:10vh;
+  }
   .currP{
     width:90vw;
     padding-left:5vw;
     position: relative;
     padding-left:5vw;
   }
+
   .sdImg{
     width:40vw;
     padding-left:7vw;
@@ -218,5 +194,26 @@ p{
     width:30vw;
     padding-left:12vw;
     padding-top:0vh;
+  }
+}
+@media screen and (max-width:550px){
+  .myImg {
+    display: none;
+    height: 100%;
+    float:right;
+  }
+  .imgDiv{
+    height: 100%;
+    background : url(./imgs/me.jpg)  ;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px -350px 2000px rgba(0,0,0,1) inset;
+  }
+  .name{
+    position: absolute;
+  }
+  .address{
+    position: absolute;
+    top:70vh;
   }
 }
