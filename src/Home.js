@@ -5,6 +5,7 @@ import sd from "./imgs/sdp1.jpg";
 import shortMe from "./imgs/shortMe.jpg";
 import internship from "./imgs/projects/internship.png";
 import aboutImg from "./imgs/about.png";
+import "./Project.css";
 
 export default class Home extends Component {
   render() {
@@ -28,9 +29,9 @@ export default class Home extends Component {
         </div>
         <div className="currDiv" >
           <p className="currP" >
-            <span style={{ fontSize: "1.5em", }} >Currently Working </span>
+            <span className="currTitle" >Currently Working </span>
             as Salesforce developer at NTT DATA Global Delivery Services, Hyderabad, India.
-            <br />  Designated as Software Developer Senior Associate. Since September,2018.</p>
+            <br /> <br />  Designated as Software Developer Senior Associate. Since September,2018.</p>
           <a title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" >
             <img className="sdImg" src={sd} />
           </a>
@@ -38,25 +39,10 @@ export default class Home extends Component {
             <img className="tbImg" src={tb} />
           </a>
         </div>
+        <div className="projects" >
+          <Project />
+        </div>
       </div>
-
-      //   <div>
-      //     <p
-      //       style={{
-      //         margin: 0,
-      //         paddingTop: 30,
-      //         fontSize: 30,
-      //         fontFamily: "amaranth-extended-bold ,sans-serif",
-      //         fontWeight: 100,
-      //         color: "gray"
-      //       }}
-      //     >
-      //       Internship
-      //     </p>
-      //     <img style={{ height: "33vh" }} src={internship} />
-      //   </div>
-      //   <Project />
-      // </div>
     );
   }
 }
