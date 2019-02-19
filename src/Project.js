@@ -8,26 +8,20 @@ import c4 from "./imgs/projects/c4.png";
 export default class Project extends Component {
   render() {
     return (
-      <div>
-        <p
-          style={{
-            margin: 0,
-            paddingTop: 30,
-            fontSize: 30,
-            fontFamily: "amaranth-extended-bold ,sans-serif",
-            fontWeight: 100,
-            color: "gray"
-          }}
-        >
-          Projects I worked on
+      <div className="projects" >
+        <p className="heading" >
+          Some of my work
         </p>
+        <section className="workSections" >
+          <img className="workImgs" src={nb} />
+          <p className="discription" >A complete Web application developed in ReactJS (^16.3.2) which could creat a new Note.
+             we can view,edit and also delete the previous notes. All your notes will be stored in the web browser.
+             Redux(^4.0.0) is used to magae the state of the application. It restores the previous notes from the browser and updates them.
+          </p>
+          <a className="viewCode" target="_blank"  href="https://github.com/NithinKumarAlladi/noted.git" >VIEW CODE</a>
+        </section>
         <div>
-          <section>
-            <img
-              style={{ height: "33vh", minHeight: "200px", float: "left" }}
-              src={nb}
-            />
-          </section>
+          {/* 
           <section>
             <img
               style={{ height: "33vh", minHeight: "200px", float: "right" }}
@@ -45,7 +39,7 @@ export default class Project extends Component {
               style={{ height: "33vh", minHeight: "200px", float: "right" }}
               src={ttt}
             />
-          </section>
+          </section> */}
         </div>
       </div>
     );
