@@ -1,6 +1,5 @@
 .projects{
     background: #f5f7f9;
-    height: 100vh;
 }
 
 .heading{
@@ -10,12 +9,12 @@
 }
 .workSections{
     width:70%;
-    max-width: 70%;
     margin-top:5vh;
     margin-left:15%;
     background:white;
     text-align: center;
     padding-bottom: 5vh;
+    margin-bottom: 5vh;
 }
 .workImgs{
     width:100%;
@@ -25,30 +24,56 @@
     text-align: center;
     padding-left:10%;
     position: relative;
+    margin-bottom: 2em;
 }
 .viewCode {
     background-color:  rgb(39, 39, 39);
     color: white;
+    position: relative;
     padding: 1em 1.5em;
+    margin-top:2em;
     text-decoration: none;
     text-transform: uppercase;
+}
+.workHeading{
+    display: none;
 }
   
 .viewCode:hover {
     background-color: black;
 }
+.internship{
+    width:55%;
+}
   
 @media screen and (max-width:1200px){
-    
-}
-
-@media screen and (max-width:550px){
     .heading{
         padding-top:5vh;
         font-size:2.5em;
         float:center;
     }
-    .workImgs{
-        display: none;
+    .workSections{
+        width:90%;
+        margin-left:5%;
+    }
+    .discription{
+        text-align: center;
+        position: relative;
+        padding-top:5vh;
+        margin-bottom: 2em;
+    }
+    .workTitle{
+        float:left;
+        padding-left:10%;
+        font-size:1.5em;
+    }
+    .internship{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .internship{
+        width:100%;
     }
 }
