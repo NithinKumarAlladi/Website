@@ -3,9 +3,9 @@ import Project from "./Project.js";
 import tb from "./imgs/tb.jpg";
 import sd from "./imgs/sdp1.jpg";
 import shortMe from "./imgs/shortMe.jpg";
-import internship from "./imgs/projects/internship.png";
-import aboutImg from "./imgs/about.png";
 import "./Project.css";
+import End from "./End.js";
+import "./End.css";
 
 export default class Home extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class Home extends Component {
       <div className="home">
         <div className="intro" >
           <div className="imgDiv" >
-            <img className="myImg" src={shortMe} />
+            <img className="myImg"  alt="Sorry for the broken img"  src={shortMe} />
           </div>
           <p className="name" >NITHIN KUMAR ALLADI</p>
           <div className="vertiLine" ></div>
@@ -32,15 +32,18 @@ export default class Home extends Component {
             <span className="currTitle" >Currently Working </span>
             as Salesforce developer at NTT DATA Global Delivery Services, Hyderabad, India.
             <br /> <br />  Designated as Software Developer Senior Associate. Since September,2018.</p>
-          <a title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" >
-            <img className="sdImg" src={sd} />
+          <a title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" rel="noopener noreferrer">
+            <img className="sdImg"  alt="Sorry for the broken img"  src={sd} />
           </a>
-          <a title="Click to navigate to my trailhead account" href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM" target="_blank" >
-            <img className="tbImg" src={tb} />
+          <a title="Click to navigate to my trailhead account" href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM" target="_blank" rel="noopener noreferrer" >
+            <img className="tbImg"  alt="Sorry for the broken img"  src={tb} />
           </a>
         </div>
         <div className="projects" >
           <Project />
+        </div>
+        <div>
+          <End />
         </div>
       </div>
     );

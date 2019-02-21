@@ -1,0 +1,25 @@
+.main{
+    background: black;
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+.para{
+    color:rgb(207, 207, 207);
+    text-align: center;
+    width:90vw;
+    padding-left:5vw;
+}
+.snIcons{
+    text-align: center;
+    padding:5vh;
+    color:rgb(207, 207, 207);
+    font-size:2.5em;
+}
+.icn{
+    margin-left:2.5vw;
+    margin-right:2.5vw;
+}
+a{
+    color:rgb(207, 207, 207);
+}

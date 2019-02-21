@@ -150,7 +150,7 @@ p{
     box-shadow: none;
   }
   .myImg{
-    display: inline;
+    display:inline-block;
     height:100%;
     border-radius: 50%;
     margin-top:15vh;
@@ -180,7 +180,8 @@ p{
     padding-top:15vh;
   }
   .aboutDiv{
-    height:90vh;
+    height:inherit;
+    padding-bottom: 10vh;
   }
   .aboutP{
     width:90vw;
@@ -237,5 +238,4 @@ p{
   .currTitle{
     font-size: 2em;
   }
-  
 }
