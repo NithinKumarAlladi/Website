@@ -13,7 +13,7 @@ export default class Home extends Component {
       <div className="home">
         <div className="intro" >
           <div className="imgDiv" >
-            <img className="myImg"  alt="Sorry for the broken img"  src={shortMe} />
+            <img className="myImg" alt="Sorry for the broken img" src={shortMe} />
           </div>
           <p className="name" >NITHIN KUMAR ALLADI</p>
           <div className="vertiLine" ></div>
@@ -28,16 +28,16 @@ export default class Home extends Component {
             frameworks or libraries and React Native and Ionic which are mobile application developing frameworks.  </p>
         </div>
         <div className="currDiv" >
-          <p className="currP" >
-            <span className="currTitle" >Currently Working </span>
-            as Salesforce developer at NTT DATA Global Delivery Services, Hyderabad, India.
+          <div className="back" >
+            <p className="currP" >
+              <span className="currTitle" >Currently Working </span>
+              as Salesforce developer <br /> at NTT DATA Global Delivery Services, Hyderabad, India.
             <br /> <br />  Designated as Software Developer Senior Associate. Since September,2018.</p>
-          <a title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" rel="noopener noreferrer">
-            <img className="sdImg"  alt="Sorry for the broken img"  src={sd} />
-          </a>
-          <a title="Click to navigate to my trailhead account" href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM" target="_blank" rel="noopener noreferrer" >
-            <img className="tbImg"  alt="Sorry for the broken img"  src={tb} />
-          </a>
+            <a className="viewCert sd" title="Click to view certificate" href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0034A00002zy5IhQAI" target="_blank" rel="noopener noreferrer">
+              SPD l Certificate</a>
+            <a className="viewCert tb" title="Click to navigate to my trailhead account" href="https://trailhead.salesforce.com/en/me/00550000007iYEbAAM" target="_blank" rel="noopener noreferrer" >
+              TrailBlazer</a>
+          </div>
         </div>
         <div className="projects" >
           <Project />
