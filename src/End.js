@@ -5,9 +5,9 @@ export default class End extends Component {
     render() {
         return (
             <div className="main" >
-                <p className="para" >Portfolio looks good? Want to say someting? I'm available for that.
-                <br /> Also If you have an idea and want me to be a part of it I'm available to freelance your work.
-                <br /><br />Ping me and lets plan to meet!
+                <p className="para" >Portfolio looks good? Want to say something? I'm available for that.
+                <br /> Also If you have an idea and want me in it I'm available to freelance your work.
+                <br /><br />Ping me and lets meet!
                 </p>
                 <div className="snIcons" >
                     <a href="https://www.instagram.com/nithin_alladi/" target="_blank" rel="noopener noreferrer" ><i className="fa fa-instagram insta icn " aria-hidden="true"></i></a>
