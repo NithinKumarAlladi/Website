@@ -5,8 +5,8 @@ export default class End extends Component {
     render() {
         return (
             <div className="main" >
-                <p className="para" >Portfolio looks good? Want to say something? I'm available for that.
-                <br /> Also If you have an idea and want me in it I'm available to freelance your work.
+                <p className="para" >Does portfolio look good? Want to say something about it?
+                <br /> Also If you have an idea and want me to be a part of it, then I'm available to freelance your work.
                 <br /><br />Ping me and lets meet!
                 </p>
                 <div className="snIcons" >

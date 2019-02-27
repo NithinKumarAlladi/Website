@@ -55,7 +55,7 @@
   font-size: 4em;
   width: 20%;
   padding-top:30vh;
-  padding-left:9%;
+  padding-left:8%;
 }
 p{
   margin:0px;
@@ -75,7 +75,7 @@ p{
   text-align: left;
   font-size: 4em;
   width: 20%;
-  padding-left:31%; 
+  padding-left:32%; 
   top:30vh;
   position: absolute;
 
@@ -114,7 +114,7 @@ p{
 }
 .back{
   height:100%;
-  background: rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.15);
 }
 .currP{
   color:white;

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Project from "./Project.js";
-import tb from "./imgs/tb.jpg";
-import sd from "./imgs/sdp1.jpg";
 import shortMe from "./imgs/shortMe.jpg";
 import "./Project.css";
 import End from "./End.js";
