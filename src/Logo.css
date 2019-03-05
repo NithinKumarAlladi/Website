@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'Spoiled';
+    src: url(./fonts/Spoiled.ttf);
+}
+@font-face{
+    font-family: 'Sandbrush Demo';
+    src: url(./fonts/sandbrush\ demo.ttf);
+}
+
+
+.logoDiv{
+    height: inherit;
+    width: inherit;
+}
+
+.logo{
+    font-family: 'Sandbrush Demo';
+    font-size:4em;
+    border: 0.05em solid black;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin:0.1em;
+}

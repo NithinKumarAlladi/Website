@@ -4,6 +4,8 @@ import shortMe from "./imgs/shortMe.jpg";
 import "./Project.css";
 import End from "./End.js";
 import "./End.css";
+import Logo from "./Logo";
+import "./Logo.css";
 
 export default class Home extends Component {
   render() {
@@ -42,6 +44,9 @@ export default class Home extends Component {
         </div>
         <div>
           <End />
+        </div>
+        <div>
+          <Logo className="logo" color="red" />
         </div>
       </div>
     );
