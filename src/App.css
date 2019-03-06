@@ -262,6 +262,7 @@ p{
     position: absolute;
     padding-top: 65vh;
     max-width: 100vw;
+    font-size: 3em;
   }
   .bigLogoDiv{
     display: none;
@@ -278,12 +279,17 @@ p{
   .address{
     position: center;
     top:75vh;
+    font-size: 2em;
+  }
+  .aboutP{
+    font-size:1.5em;
   }
   .currTitle{
     font-size: 2em;
   }
   .currP{
     padding-top:25%;
+    font-size: 1.1em;
   }
   .tb{
     margin-left:5vw;
