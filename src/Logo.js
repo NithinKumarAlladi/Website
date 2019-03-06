@@ -4,7 +4,8 @@ export default class Logo extends Component {
     render() {
         const customLogo = {
             borderColor: this.props.color,
-            color: this.props.color
+            color: this.props.color,
+            fontSize:this.props.size,
         }
         return (
             <div className="logoDiv" >

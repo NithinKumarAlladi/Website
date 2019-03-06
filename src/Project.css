@@ -1,12 +1,20 @@
+@font-face{
+    font-family: 'Balamoa Normal';
+    src: url(./fonts/Balamoa.ttf);
+  }
+  
+
+
 .projects{
     background: #f5f7f9;
     padding-bottom: 2vh;
 }
 
 .heading{
+    font-family: 'Balamoa Normal';
     padding-top:10vh;
     padding-left:10vw;
-    font-size:3em;
+    font-size:5em;
 }
 .workSections{
     width:70%;
@@ -21,6 +29,8 @@
     width:100%;
 }
 .discription{
+    font-family: 'Balamoa Normal';
+    font-size:3em;
     width:80%;
     text-align: center;
     padding-left:10%;
@@ -50,7 +60,7 @@
 @media screen and (max-width:1200px){
     .heading{
         padding-top:5vh;
-        font-size:2.5em;
+        font-size:5em;
         float:center;
     }
     .workSections{
@@ -76,5 +86,8 @@
 @media screen and (max-width:550px){
     .internship{
         width:100%;
+    }
+    .discription{
+        font-size:2em;
     }
 }
