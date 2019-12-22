@@ -13,45 +13,60 @@
 .heading{
     font-family: 'Balamoa Normal';
     padding-top:10vh;
-    padding-left:10vw;
+    text-align: center;
     font-size:5em;
 }
-.workSections{
-    width:70%;
-    margin-top:5vh;
-    margin-left:15%;
-    background:white;
-    text-align: center;
-    padding-bottom: 5vh;
-    margin-bottom: 5vh;
-}
-.workImgs{
+.projectWrap{
     width:100%;
-}
-.discription{
-    font-family: 'Balamoa Normal';
-    font-size:3em;
-    width:80%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     text-align: center;
-    padding-left:10%;
-    position: relative;
-    margin-bottom: 2em;
 }
-.viewCode {
-    background-color:  rgb(39, 39, 39);
+.project{
+    border: 2px solid black;
+    margin: 5%;
     color: white;
-    position: relative;
-    padding: 1em 1.5em;
-    margin-top:2em;
-    text-decoration: none;
-    text-transform: uppercase;
+    /* padding-top: 15vh; */
+    /* padding-bottom: 15vh; */
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.workHeading{
-    display: none;
+.projectBGShade{
+    background: rgba(0,0,0,0.6);
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    width:inherit;
+    height: inherit;
 }
-  
-.viewCode:hover {
-    background-color: black;
+.projectName{
+    font-family: 'Whiskey Bite';
+    font-size: 2em;
+}
+.tagline{
+    font-family: 'Balamoa Normal';
+    font-size: 2em;
+}
+.viewButton {
+    border: 2px solid white;
+    padding: 0.5em;
+    margin: 2em 35%;
+    width : 30%;
+    font-family: 'Whiskey Bite';
+    font-size: 1.2em;
+}
+.viewButton:hover{
+    cursor: pointer;
+}
+#project1{
+    background-image: url(./imgs/projects/raksBG2.jpg);
+}
+#project2{
+    background-image: url(./imgs/projects/nyboBG.png);
+}
+#project3{
+    background-image: url(./imgs/projects/notebook1.png);
 }
 .internship{
     width:55%;
