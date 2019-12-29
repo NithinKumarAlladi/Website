@@ -26,8 +26,6 @@
     border: 2px solid black;
     margin: 5%;
     color: white;
-    /* padding-top: 15vh; */
-    /* padding-bottom: 15vh; */
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,10 +49,13 @@
 .viewButton {
     border: 2px solid white;
     padding: 0.5em;
-    margin: 2em 35%;
+    margin: 4em 35%;
     width : 30%;
     font-family: 'Whiskey Bite';
     font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    position: relative;
 }
 .viewButton:hover{
     cursor: pointer;
@@ -70,6 +71,24 @@
 }
 .internship{
     width:55%;
+}
+.popup{
+    width: 100vw;
+    margin: 0;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top:0;
+    left: 0;
+
+}
+.content{
+    width:10vw;
+    background-color: white;
+    color: black;
+}
+.closePopup{
+    color: white;
+    cursor: pointer;
 }
   
 @media screen and (max-width:1200px){

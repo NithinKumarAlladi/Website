@@ -6,169 +6,23 @@
   font-family: 'Balamoa Normal';
   src: url(./fonts/Balamoa.ttf);
 }
-
-
 .App{
   font-size: 16px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.nav{
+  display:block;
+  position: absolute;
+  left:5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.link{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.intro {
-  height: 100vh;
-  background: black;
-  min-height: 825px;
-}
-.myImg {
-  display: none;
-  height: 100%;
-  float:right;
-}
-.imgDiv{
-  float: right;
-  height: 100%;
-  width:40%;
-  background : url(./imgs/me.jpg);
-  background-size:cover;
-  box-shadow: 250px -100px 2000px rgba(0,0,0,1) inset;
-}
-.bigLogoDiv{
-  position: absolute;
-  padding-top: 2vh;
-  padding-left:2vh;
-}
-.smallLogoDiv{
-  display: none;
-}
-.logo{
-  position: absolute;
-}
-.name{
-  font-family: 'Whiskey Bite';
-  position: relative;
-  color: rgb(207, 207, 207);
-  text-align: right;
-  font-size: 5em;
-  width: 15%;
-  padding-top:30vh;
-  padding-left:12%;
-}
-p{
-  margin:0px;
-  padding:0px;
-}
-.vertiLine{
-  width:3px;
-  height:18em;
-  background: rgb(218, 218, 218);
-  position: absolute;
-  top:30vh;
-  left:30%;
-  
-}
-.prof{
-  font-family: 'Whiskey Bite';
-  color: rgb(207, 207, 207);
-  text-align: left;
-  font-size: 5em;
-  width: 20%;
-  padding-left:33%; 
-  top:30vh;
-  position: absolute;
-
-}
-.address{
-    font-family: 'Whiskey Bite';
-  font-size: 2.5em;
-  color: rgb(207, 207, 207);
-  text-align: center;
-  padding-top:15vh;
-}
-.aboutDiv{
-  height:90vh;
-  text-align: center;
-  background:black;
-}
-.aboutImg{
-  width: 10vw;
-  min-width: 120px;
-}
-.aboutP{
-  font-family: 'Whiskey Bite';
-  color: rgb(207, 207, 207);
-  width:60vw;
-  padding-top:25vh;
-  padding-left: 20vw;
-  margin-bottom: 10vh;
-  font-size: 2em;
-}
-.currDiv{
-  height: 70vh;
-  background-image: url(./imgs/bgme.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
-}
-.back{
-  height:100%;
-  background: rgba(0,0,0,0.15);
-}
-.currP{
-  color:white;
-  padding-top:11%;
-  width:50vw;
-  font-size: 1.1em;
-  text-align: center;
-  position: relative;
-  padding-left:5vw;
-}
-.viewCert{
-  margin-top:5vh;
-  appearance: button;
   text-decoration: none;
-  color: initial;
-  padding:0.7em 2em 0.7em 2em;
-  background:  rgba(255,255,255,0.8);
+  padding:10px 10px 5px 10px;
+  margin:0 10px;
 }
-.sd{
-  margin-left:15%;
+.link:hover{
+  color: var(--yellow);
 }
-.tb{
-  margin-left:8%;
-}
-.currTitle{
-  font-size: 2.5em;
-}
-
 
 @media screen and (max-width:1200px){
   .intro{

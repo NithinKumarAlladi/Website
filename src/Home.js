@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Project from "./Project.js";
 import shortMe from "./imgs/shortMe.jpg";
-import "./Project.css";
-import End from "./End.js";
-import "./End.css";
 import Logo from "./Logo";
+import "./End.css";
 import "./Logo.css";
+import "./Home.css";
 
 export default class Home extends Component {
   render() {
@@ -48,9 +47,7 @@ export default class Home extends Component {
         <div className="projects" >
           <Project />
         </div>
-        <div>
-          <End />
-        </div>
+        
       </div>
     );
   }
