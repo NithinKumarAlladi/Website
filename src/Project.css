@@ -41,6 +41,7 @@
 .projectName{
     font-family: 'Whiskey Bite';
     font-size: 2em;
+    margin-bottom:5%;
 }
 .tagline{
     font-family: 'Balamoa Normal';
@@ -49,8 +50,6 @@
 .viewButton {
     border: 2px solid white;
     padding: 0.5em;
-    margin: 4em 35%;
-    width : 30%;
     font-family: 'Whiskey Bite';
     font-size: 1.2em;
     text-decoration: none;
